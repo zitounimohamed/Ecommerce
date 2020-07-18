@@ -1,0 +1,2406 @@
+<div class="container">
+
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">kia</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <ul class="list-group">
+         <div class="container">
+  <h2>rio</h2>
+ 
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">Collapsible list group</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <ul class="list-group">
+          <li class="list-group-item">One</li>
+          <li class="list-group-item">Two</li>
+          <li class="list-group-item">Three</li>
+      
+        <div class="panel-footer">Footer</div>
+      </div>
+    </div>
+  </div>
+</div>
+       <div class="panel-footer">Footer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+**************************test shyha*************************
+
+
+import React, { Component } from 'react';
+import kiaMotor from './img/kia.jpg';
+import Rio3 from './img/Rio3.jpg';
+import Rio4 from './img/Rio4.jpg';
+import Picanto3 from './img/Picanto3.jpg';
+import Picanto4 from './img/Picanto4.jpg';
+import Sportage3 from './img/Sportage3.jpg';
+import Sportage4 from './img/Sportage4.jpg';
+import Hyundai from './img/Hyundai.jpg';
+import Grandi10_3 from './img/Grand-i10.jpg';
+import Grandi10_4 from './img/Grand_i10_4.jpeg';
+import Hyundai_i20_4 from './img/Hyundai_i20_4.jpg';
+import Hyundai_i20_3 from './img/Hyundai_i20_3.jpg';
+//import  './test.css';
+
+class test extends Component {
+
+    render() {
+        return (
+
+            <div> <br/><br /><br/><br /><br/><br />
+            {/************************KIA******************** */}
+            <div class="cont">
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse1">  <center><img src={kiaMotor} class="img-responsive center-block" alt="kia" height="28%" width="28%"/></center></a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                
+                   <div class="container">
+           
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h2 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse2"> KIA Rio</a>
+                  </h2>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                  <ul class="list-group">
+
+                    <div>
+                    <div class="card-deck"><div class="card">
+                    <img class="card-img-top" src={Rio3} alt="Kia Rio 3"/>
+                    <div class="card-body">
+                    <center><h5 class="card-title">Rio3</h5></center>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src={Rio4} alt="Kia Rio 4" />
+                    <div class="card-body">
+                    <center><h5 class="card-title">Rio4</h5></center>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>   
+                    </div>
+                </div> 
+                </div></div> <br /> </ul></div> </div>  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+            </div>   
+               
+                {/************************Hyundai******************** */}
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3"><center><img src={Hyundai} class="img-responsive center-block" alt="kia" height="28%" width="28%"/></center></a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                
+                   <div class="container">
+           
+            <div class="panel-grou">
+              <div class="panel panel-defaul">
+                <div class="panel-heading">
+                  <h2 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse4">HYUNDAI GRAND I10</a>
+                  </h2>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <ul class="list-group">
+
+                    <div>
+                    <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src={Grandi10_3} alt="HYUNDAI Grandi-10_3"/>
+              <div class="card-body">
+                <center><h5 class="card-title">Grandi10_3</h5></center>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src={Grandi10_4} alt="HYUNDAI Grand I10_4" />
+              <div class="card-body">
+                <center><h5 class="card-title">Grandi10_4</h5></center>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                </div> 
+                </div></div> <br /> </ul></div> </div>  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          
+            </div>   
+
+
+
+          
+      
+              
+          
+        );
+    }
+}
+
+export default test;
+
+**************************************************////// nav version 1  eiser ****************
+import React, { Component } from 'react';
+import logo from './img/logo.png';
+import { connect } from 'react-redux';
+
+import * as actions from '../actions';
+
+class nav extends Component {
+  constructor(props) {
+    super(props);
+    this.signOut = this.signOut.bind(this);
+  }
+
+  signOut() {
+    console.log('signOut got called ! ');
+    this.props.signOut();
+  }
+
+    render() {
+        return (
+            <div class="header_area">
+            <div class="top_menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="float-left">
+              <p>Phone: +216 73 531 139</p>
+              <p>email: kia.monastir@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="float-right">
+              <ul class="right_side">
+                <li>
+                  <a href="cart.html">
+                    gift card
+                  </a>
+                </li>
+                <li>
+                  <a href="tracking.html">
+                    track order
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_menu">
+      <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light w-120 fixed-top navbar-shrink" >
+          <a class="navbar-brand logo_h" href="/home">
+          <img src={logo} alt="My logo" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
+            <div class="row w-100 mr-0">
+              <div class="col-lg-7 pr-0">
+                <ul class="nav navbar-nav center_nav pull-right active">
+                <li class="nav-item active" >
+                    <a class="nav-link" href="/home">Home</a>
+                  </li>
+                <li class="nav-item submenu dropdown">
+                    <a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false">Modèles</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/KIA">KIA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/HYUNDAI">HYUNDAI</a>
+                      </li>
+                    </ul>  
+
+                   
+
+                  </li>
+                  <li class="nav-item submenu dropdown">
+                    <a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false">piece</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/category">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/produits">Product Details</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Product Checkout</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/panier">Panier</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/bloc">Blog</a>
+                  </li>
+                  <li class="nav-item submenu dropdown">
+                    <a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false">Pages</a>
+                    <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="tracking.html">Tracking</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="elements.html">Elements</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-5 pr-0">
+                <ul class="nav navbar-nav navbar-right right_nav pull-right">
+                  <li class="nav-item">
+                    <a href="test" class="icons">
+                      <i class="ti-search" aria-hidden="true"></i>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="/panier" class="icons">
+                      <i class="ti-shopping-cart"></i>
+                    </a>
+                  </li>
+
+                  { !this.props.isAuth ?
+                 <li class="nav-item" key = "sign">
+                    <a href="inscrit" class="icons">
+                      <i class="ti-user" aria-hidden="true"></i>
+                    </a>
+                  </li>  : null }
+
+                  { this.props.isAuth ?
+                  <li class="nav-item">
+                    <a href="signout" class="icons"  onClick={this.signOut}>
+                      <i class="ti-power-off" aria-hidden="true" ></i>
+                    </a>
+                  </li>: null }
+
+                  <li class="nav-item submenu dropdown">
+                  <a href="/" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                      aria-expanded="false">
+                        <a href="inscrit" class="icons">
+                      <i class="ti-heart" aria-hidden="true"></i></a></a>
+                      <ul class="dropdown-menu">
+                      <li class="nav-item">
+                        <a class="nav-link" href="/KIA">KIA</a>
+                      </li>
+                      </ul>
+                      </li>
+                     
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div></div>
+        );
+    }
+}
+
+function mapStateToProps(state) {
+  return {
+    isAuth: state.auth.isAuthenticated
+  };
+}
+
+export default nav ;
+//export default connect(mapStateToProps, actions)(nav);
+
+*************************************coontact version1 *******************************************
+import React, { Component } from 'react';
+
+
+class Contact extends Component {
+    render() {
+        return (
+ 
+<div class="row" /*style={mystyles}*/ >
+<div class="col-12">
+    <br />  <br />   <br />   <br />  <br />  <br /> 
+<h2 class="contact-title">Envoyer nous un message</h2>
+</div>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+<div class="row">
+<div class="col-12">
+<div class="form-group">
+<textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" placeholder="Enter Message"></textarea>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="form-group">
+<input class="form-control" name="name" id="name" type="text" placeholder="Enter votre nom "/>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="form-group">
+<input class="form-control" name="email" id="email" type="email" placeholder="Saisir votre email "/>
+</div>
+</div>
+<div class="col-12">
+<div class="form-group">
+<input class="form-control" name="subject" id="subject" type="text" placeholder="Qu'est ce que vous voulez nous dire?"/>
+</div>
+</div>
+</div>
+<div class="form-group mt-lg-3">
+<button type="submit" class="main_btn">votre Message</button>
+</div>
+</form>
+</div>
+<div class="col-lg-4">
+<div class="media contact-info">
+<span class="contact-info__icon"><i class="ti-home"></i></span>
+<div class="media-body">
+<h3>Kheniss, Monastir.</h3>
+<p>Route de Kheniss, Monastir 5000</p>
+</div>
+</div>
+<div class="media contact-info">
+<span class="contact-info__icon"><i class="ti-tablet"></i></span>
+<div class="media-body">
+<h3><a href="tel:73531134">73 531 134</a></h3>
+<p>Lundi à Vendredi de 8h jusqu'à 15h30 <br/> Samedi de 8h jusqu'à 13h30 </p>
+</div>
+</div>
+<div class="media contact-info">
+<span class="contact-info__icon"><i class="ti-email"></i></span>
+<div class="media-body">
+<h3><a href="/cdn-cgi/l/email-protection#d6a5a3a6a6b9a4a296b5b9bab9a4babfb4f8b5b9bb"><span class="_cf_email_" data-cfemail="1d6e686d6d726f695d7e7271726f71747f337e7270">[email&#160;protected]</span></a></h3>
+<p>Envoyez nous ce que vous concerne <br/> en tout moment!</p>
+</div>
+</div>
+</div>
+</div>
+
+	
+
+	
+        );
+    }
+}
+
+export default Contact;
+*********************************************nav copie2 autorepair*************************************************
+
+ render() {
+        return (
+       <div>
+          <div class="wrap">
+          <div class="container">
+          <div class="row justify-content-between">
+          <div class="col-md-3 d-flex align-items-center">
+          <a class="navbar-brand" href="index.html">Autorepair<span>.</span></a>
+          </div>
+          <div class="col-md-7">
+          <div class="row">
+          <div class="col">
+          <div class="top-wrap d-flex">
+          <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+          <div class="text"><span>Mail</span><span>kia.monastir@gmail.com</span></div>
+          </div>
+          </div>
+          <div class="col">
+          <div class="top-wrap d-flex">
+          <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+          <div class="text"><span>Call us</span><span> +216 73 531 139</span></div>
+          </div>
+          </div>
+          <div class="col-md-3 d-flex justify-content-end align-items-center">
+          <div class="social-media">
+          <p class="mb-0 d-flex">
+          <a href="inscrit" class="d-flex align-items-center justify-content-center"><span class="ti-user" aria-hidden="true"><i class="sr-only"></i></span></a>
+          <a href="panier" class="d-flex align-items-center justify-content-center"><span class="ti-shopping-cart"><i class="sr-only"></i></span></a>
+          <a href="like" class="d-flex align-items-center justify-content-center"><span class="ti-heart" aria-hidden="true"><i class="sr-only"></i></span></a>
+          </p>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<div class="container">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+<i className="fa fa-bars"></i>Menu
+ 
+</button>
+
+        <form action="#" class="searchform order-lg-last">
+            <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search"/> 
+            <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+            </div>
+        </form>
+        
+      
+   
+<div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav mr-auto">
+<li class="nav-item active"><a href="home" class="nav-link">Home</a></li>
+
+
+<li class="nav-item submenu dropdown">
+<a href="/" class="nav-link " data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">Modèles</a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a class="nav-link" href="/KIA">KIA</a></li>
+ <li class="nav-item"><a class="nav-link" href="/HYUNDAI">HYUNDAI</a>
+</li></ul></li>
+
+<li class="nav-item"><a href="category" class="nav-link">Nos articles</a></li>
+<li class="nav-item"><a href="about" class="nav-link">About</a></li>
+<li class="nav-item"><a href="bloc" class="nav-link">Blog</a></li>
+<li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+
+ );
+    }
+}
+/**********************************ta9sim el categorie****************************************//
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>Consommables</h2>
+<p>Filtres, Frainage, Bougies</p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Pièce</th>
+<th scope="col">Rèfèrence</th>
+<th scope="col">Quantité en stock</th>
+<th scope="col">Prix</th>
+<th scope="col">Ajouter au panier</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </td>
+</tr>
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>Equipement intèrieur</h2>
+<p>Embrayage</p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Pièce</th>
+<th scope="col">Rèfèrence</th>
+<th scope="col">Quantité en stock</th>
+<th scope="col">Prix</th>
+<th scope="col">Ajouter au panier</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </td>
+</tr>
+
+
+
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>Suspension et direction (chassis)</h2>
+<p>Routule, Triangle..</p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Pièce</th>
+<th scope="col">Rèfèrence</th>
+<th scope="col">Quantité en stock</th>
+<th scope="col">Prix</th>
+<th scope="col">Ajouter au panier</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </td>
+</tr>
+
+
+
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>Tolerie et vitrage</h2>
+<p>Porte capot, Pare choc</p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Pièce</th>
+<th scope="col">Rèfèrence</th>
+<th scope="col">Quantité en stock</th>
+<th scope="col">Prix</th>
+<th scope="col">Ajouter au panier</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </td>
+</tr>
+
+
+
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>Electricité</h2>
+<p>Optique, Alternateur</p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+<div class="container">
+<div class="cart_inner">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Pièce</th>
+<th scope="col">Rèfèrence</th>
+<th scope="col">Quantité en stock</th>
+<th scope="col">Prix</th>
+<th scope="col">Ajouter au panier</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+
+  </td>
+
+  <td>
+  <i class="fa fa-cart-plus" aria-hidden="true"></i>
+  </td>
+</tr>
+
+
+
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+***********************************************admin copie1**************************************
+  <div>
+                <div class="slide"><br /><br /><br /><br />
+                <div class="container">
+  <ul class="list-step">
+    <li>
+      <div class="inner">
+        <input id="step-1" type="radio" name="step" checked="checked"/>
+        <label for="step-1">
+          <p>AJOUTER UNE PIECE</p><span class="fa fa-2x fa-chrome"></span>
+        </label>
+        <div></div>
+      </div>
+    </li>
+    <li>
+      <div class="inner">
+        <input id="step-2" type="radio" name="step" checked="checked"/>
+        <label for="step-2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, alias.</p><span class="fa fa-2x fa-firefox"></span>
+        </label>
+        <div class="img-wrapper"><img src="http://placehold.it/500x410?text=firefox"/></div>
+      </div>
+    </li>
+    
+  </ul></div>
+</div>
+            </div>
+
+            /*************************************************admin copie riginal ************************
+
+            import React, { Component,useState } from 'react';
+import './admin.css';
+import  Ajout from './ajoutpiece';
+import Update from './gerercompte';
+import bienvenue from './img/bienvenue.jpg';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import classnames from 'classnames';
+
+
+const Admin = (props) => {
+  const [activeTab, setActiveTab] = useState('1');
+
+  const toggle = tab => {
+    if(activeTab !== tab) setActiveTab(tab);
+  }
+ return (
+   <div className="container">
+     <img src={bienvenue} class="bienvenue" />
+         <br/> <br/>
+            <h2>Que voulez vous faire...?</h2>
+         <br></br>
+         <div>
+      <Nav tabs>
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '1' })}
+            onClick={() => { toggle('1'); }}
+          >
+            Gérer les comptes 
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '2' })}
+            onClick={() => { toggle('2'); }}
+          >
+            Ajouter une pièce
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '3' })}
+            onClick={() => { toggle('3'); }}
+          >
+            Modifier une pièce
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '4' })}
+            onClick={() => { toggle('4'); }}
+          >
+            Supprimer une pièce
+          </NavLink>
+        </NavItem>
+
+        <NavItem>
+          <NavLink
+            className={classnames({ active: activeTab === '5' })}
+            onClick={() => { toggle('5'); }}
+          >
+            Afficher la liste des clients
+          </NavLink>
+        </NavItem>
+
+
+
+      </Nav>
+      <TabContent activeTab={activeTab}>
+        <TabPane tabId="1">
+          <Row>
+            <Col sm="12">
+              <h4>Tab 1 Contents</h4>
+            </Col>
+          </Row>
+        </TabPane>
+        <TabPane tabId="2">
+   
+              <Ajout />
+             
+        </TabPane>
+        <TabPane tabId="3">
+         
+              <Update />
+            
+             
+           
+        </TabPane>
+        <TabPane tabId="4">
+          
+        </TabPane>
+        <TabPane tabId="5">
+          <Row>
+            <Col sm="6">
+              
+            </Col>
+            <Col sm="6">
+             
+            </Col>
+          </Row>
+        </TabPane>
+      </TabContent>
+    </div>
+   </div>
+ );
+}
+
+
+
+export default Admin;
+/*********************************category .js copie1 **************************
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="container">
+<div class="banner_content d-md-flex justify-content-between align-items-center">
+<div class="mb-3 mb-md-0">
+<h2>  </h2>
+        <p></p>
+</div>
+<div class="page_link">
+<a href="home">Home</a>
+<a href="shop">shop</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cart_area">
+  <div class="container">
+  <div class="cart_inner">
+  <div class="table-responsive">
+    <table class="table">
+<     thead>
+        <tr>
+            <th scope="col">Pièce</th>
+            <th scope="col">Rèfèrence</th>
+            <th scope="col">Désignation</th>
+            <th scope="col">Quantité en stock</th>
+            <th scope="col">Prix</th>
+            <th scope="col">Ajouter au panier</th>
+        </tr>
+      </thead>
+      <tbody>
+            <tr>
+              <td>
+                   {this.props.nom}
+              </td>
+              <td>
+                   {this.props.ref}
+              </td>
+              <td>
+                   {this.props.desig}
+              </td>
+              <td>
+                 {this.props.qte}
+              </td>
+
+              <td>
+              {this.props.prix}
+              </td>
+
+            <td>
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </td>
+</tr>
+
+
+
+ </tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+
+*/**********************************nav copie 2 shyha ****************************************************
+import React, { Component } from 'react';
+import logo from './img/logo.png';
+import { connect } from 'react-redux';
+import './nav.css';
+
+import Pneu from './img/pneu.jpg';
+import * as actions from '../actions';
+
+
+class nav extends Component {
+  constructor(props) {
+    super(props);
+    this.signOut = this.signOut.bind(this);
+  }
+
+  signOut() {
+    console.log('signOut got called ! ');
+    this.props.signOut();
+  }
+
+  render() {
+    const {isAuth} = this.props;
+    if(!isAuth)  {
+      return (
+        <div>
+           <div class="wrap">
+           <div class="container">
+           <div class="row justify-content-between">
+           <div class="col-md-3 d-flex align-items-center">
+           <a class="navbar-brand" href="/home">Autorepair<span>.</span></a>
+           </div>
+           <div class="col-md-8">
+           <div class="row">
+           <div class="col">
+           <div class="top-wrap d-flex pr-6">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Mail</span><span>kia.monastir@gmail.com</span></div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="top-wrap d-flex">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Call us</span><span> +216 73 531 139</span></div>
+           </div>
+           </div>
+           <div class="col-md d-flex justify-content-end align-items-center">
+           <div class="social-media col-md-9">
+           <p class="mb-0 d-flex">
+           <a href="inscrit" class="d-flex align-items-center justify-content-center pl-3"><span class=" pr-3 ti-user" aria-hidden="true"><i class="sr-only"></i></span></a>
+           Sign In or Create Account
+           </p>
+           </div>
+           <div class="social-media col-md-5">
+           <p class="mb-0 d-flex">
+           <a href="panier" class="d-flex align-items-center justify-content-center pl-3 "><span class=" pr-3 ti-shopping-cart "><i class="sr-only "></i></span></a>
+           Shopping Cart
+           </p>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+     <div class="container">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+     <i className="fa fa-bars"></i>Menu
+     
+     </button>
+     
+         <form action="#" class="searchform order-lg-last">
+             <div class="form-group d-flex">
+             <input type="text" class="form-control pl-3" placeholder="Search"/> 
+             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+             </div>
+         </form>
+         
+       
+     
+     <div class="collapse navbar-collapse" id="ftco-nav">
+     <ul class="navbar-nav mr-auto">
+     <li class="nav-item active"><a href="home" class="nav-link">Home</a></li>
+     
+     
+     <li class="nav-item submenu dropdown">
+     <a href="/" class="nav-link " data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">Modèles</a>
+     <ul class="dropdown-menu">
+     <li class="nav-item"><a class="nav-link" href="/KIA">KIA</a></li>
+     <li class="nav-item"><a class="nav-link" href="/HYUNDAI">HYUNDAI</a>
+     </li></ul></li>
+     
+     <li class="nav-item"><a href="listp" class="nav-link">Nos articles</a></li>
+     <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+     <li class="nav-item"><a href="bloc" class="nav-link">Blog</a></li>
+     <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+     </ul>
+     </div>
+     </div>
+     </nav>
+     </div>
+     
+     );
+    }
+    else {
+      return (
+        <div>
+           <div class="wrap">
+           <div class="container">
+           <div class="row justify-content-between">
+           <div class="col-md-3 d-flex align-items-center">
+           <a class="navbar-brand" href="/home">Autorepair<span>.</span></a>
+           </div>
+           <div class="col-md-8">
+           <div class="row">
+           <div class="col">
+           <div class="top-wrap d-flex pr-6">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Mail</span><span>kia.monastir@gmail.com</span></div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="top-wrap d-flex">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Call us</span><span> +216 73 531 139</span></div>
+           </div>
+           </div>
+           <div class="col-md d-flex justify-content-end align-items-center">
+           <div class="social-media col-md-9">
+           <p class="mb-0 d-flex">
+           <a href="/logout" class="d-flex align-items-center justify-content-center pl-3" onClick={this.signOut}> <span class=" pr-3 ti-user" aria-hidden="true"><i class="sr-only"></i></span></a>
+           Logout
+           </p>
+           </div>
+           <div class="social-media col-md-5">
+           <p class="mb-0 d-flex">
+           <a href="panier" class="d-flex align-items-center justify-content-center pl-3 " ><span class=" pr-3 ti-shopping-cart "><i class="sr-only "></i></span></a>
+           Shopping Cart
+           </p>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+     <div class="container">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+     <i className="fa fa-bars"></i>Menu
+     
+     </button>
+     
+         <form action="#" class="searchform order-lg-last">
+             <div class="form-group d-flex">
+             <input type="text" class="form-control pl-3" placeholder="Search"/> 
+             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+             </div>
+         </form>
+         
+       
+     
+     <div class="collapse navbar-collapse" id="ftco-nav">
+     <ul class="navbar-nav mr-auto">
+     <li class="nav-item active"><a href="home" class="nav-link">Home</a></li>
+     
+     
+     <li class="nav-item submenu dropdown">
+     <a href="/" class="nav-link " data-toggle="dropdown" role="button" aria-haspopup="true"aria-expanded="false">Modèles</a>
+     <ul class="dropdown-menu">
+     <li class="nav-item"><a class="nav-link" href="/KIA">KIA</a></li>
+     <li class="nav-item"><a class="nav-link" href="/HYUNDAI">HYUNDAI</a>
+     </li></ul></li>
+     
+     <li class="nav-item"><a href="listp" class="nav-link">Nos articles</a></li>
+     <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+     <li class="nav-item"><a href="bloc" class="nav-link">Blog</a></li>
+     <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+     </ul>
+     </div>
+     </div>
+     </nav>
+     </div>
+     
+     );
+    }
+    
+}
+}
+function mapStateToProps(state) {
+  return {
+    isAuth: state.auth.isAuthenticated
+  };
+}
+
+export default connect(mapStateToProps, actions)(nav);
+
+/*********************************************************nav copie final ************************************
+import React, { Component } from 'react';
+import './home.css';
+
+
+class allPieces extends Component {
+
+    render() {
+        return (
+            <div className='container'>
+                <center><h2>Un large choix de pièces détachées pour votre véhicule</h2></center>
+                <br/> <br/>
+                <div class="card-deck">
+                    <div className="card border-dark mb-3 pb-5" >
+                        <div className="card-header "><br/><h5 className="pb-3">Pièces moteur et Huile</h5></div><br/>
+                                <ul class="list-group list-group-flush">
+
+                                        <li class="list-group-item px-0 pt-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1">
+                                        Courroies et Distribution<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample1">
+                                            <div class="card card-body mt-2">
+                                            <h5 className="card-title"> > Courroies et Distribution</h5>
+                                        </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true" aria-controls="collapseExample2">
+                                        Huile / Accessoires vidange<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample2">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Moteur et Culasse<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Injection carburation<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Bougies et Pièces d'allumage<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                    </ul>
+                            </div>
+
+                            <div className="card border-dark mb-3 pb-5" >
+                        <div className="card-header "><br/><h5 className="pb-3">Pièces moteur et Huile</h5></div><br/>
+                                <ul class="list-group list-group-flush">
+
+                                        <li class="list-group-item px-0 pt-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1">
+                                        Courroies et Distribution<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample1">
+                                            <div class="card card-body mt-2">
+                                            <h5 className="card-title"> > Courroies et Distribution</h5>
+                                        </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true" aria-controls="collapseExample2">
+                                        Huile / Accessoires vidange<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample2">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Moteur et Culasse<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Injection carburation<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Bougies et Pièces d'allumage<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+                                         </ul>
+                             </div>   
+
+                             <div className="card border-dark mb-3 pb-5" >
+                        <div className="card-header "><br/><h5 className="pb-3">Direction / Suspension / Train</h5></div><br/>
+                                <ul class="list-group list-group-flush">
+
+                                        <li class="list-group-item px-0 pt-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1">
+                                        Courroies et Distribution<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample1">
+                                            <div class="card card-body mt-2">
+                                            <h5 className="card-title"> > Courroies et Distribution</h5>
+                                        </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true" aria-controls="collapseExample2">
+                                        Huile / Accessoires vidange<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample2">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Moteur et Culasse<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Injection carburation<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+
+                                        <li class="list-group-item px-0">
+                                        <a class="btn collapsed" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="true" aria-controls="collapseExample3">
+                                        Bougies et Pièces d'allumage<span class="mr-3"></span>
+                                        </a>
+                                        <div class="collapse" id="collapseExample3">
+                                            <div class="card card-body mt-2">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                            </div>
+                                        </div>
+                                        </li>
+                                         </ul>
+                             </div>   
+                    
+                    
+
+
+                </div>
+            </div>   
+        );
+    }
+}
+
+export default allPieces;
+
+/*************************************************************************************************///
+ axios.get(url).then((response) => {
+       // console.log(response);
+        
+        const emploisRow = []
+        const emplois = response.data
+        emplois.forEach((emploi) =>{
+            emploisRow.push(emploi)
+            if(emploi.title== searchTerm){
+                console.log(emploi);
+                this.setState({
+                    jobs: this.state.emploi
+                });
+            }else 
+            {
+                this.setState({
+                    jobs: response.data                    
+                });
+                
+            }
+            
+        })
+        
+    }).catch(error => {
+        console.log(error);
+    });
+}
+
+/*******************************************************************dashboard admin ********************************/
+import React, { Component } from 'react';
+
+class dashboard extends Component {
+
+  render() {
+    return (
+       <div id="wrapper">
+
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <i class="fas fa-laugh-wink"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+  </a>
+
+  <hr class="sidebar-divider my-0"/>
+
+  <li class="nav-item active">
+    <a class="nav-link" href="index.html">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard</span></a>
+  </li>
+
+  <hr class="sidebar-divider"/>
+
+  <div class="sidebar-heading">
+    Interface
+  </div>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <i class="fas fa-fw fa-cog"></i>
+      <span>Components</span>
+    </a>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Custom Components:</h6>
+        <a class="collapse-item" href="buttons.html">Buttons</a>
+        <a class="collapse-item" href="cards.html">Cards</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+      <i class="fas fa-fw fa-wrench"></i>
+      <span>Utilities</span>
+    </a>
+    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Custom Utilities:</h6>
+        <a class="collapse-item" href="utilities-color.html">Colors</a>
+        <a class="collapse-item" href="utilities-border.html">Borders</a>
+        <a class="collapse-item" href="utilities-animation.html">Animations</a>
+        <a class="collapse-item" href="utilities-other.html">Other</a>
+      </div>
+    </div>
+  </li>
+
+  <hr class="sidebar-divider"/>
+
+  <div class="sidebar-heading">
+    Addons
+  </div>
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+      <i class="fas fa-fw fa-folder"></i>
+      <span>Pages</span>
+    </a>
+    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Login Screens:</h6>
+        <a class="collapse-item" href="login.html">Login</a>
+        <a class="collapse-item" href="register.html">Register</a>
+        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+        <div class="collapse-divider"></div>
+        <h6 class="collapse-header">Other Pages:</h6>
+        <a class="collapse-item" href="404.html">404 Page</a>
+        <a class="collapse-item" href="blank.html">Blank Page</a>
+      </div>
+    </div>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="charts.html">
+      <i class="fas fa-fw fa-chart-area"></i>
+      <span>Charts</span></a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="tables.html">
+      <i class="fas fa-fw fa-table"></i>
+      <span>Tables</span></a>
+  </li>
+
+  <hr class="sidebar-divider d-none d-md-block"/>
+
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+
+</ul>
+
+<div id="content-wrapper" class="d-flex flex-column">
+
+  <div id="content">
+
+    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+      <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+        <i class="fa fa-bars"></i>
+      </button>
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item dropdown no-arrow d-sm-none">
+          <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-search fa-fw"></i>
+          </a>
+        
+          <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+            <form class="form-inline mr-auto w-100 navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2"/>
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell fa-fw"></i>
+            <span class="badge badge-danger badge-counter">3+</span>
+          </a>
+         
+          <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+            <h6 class="dropdown-header">
+              Alerts Center
+            </h6>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="mr-3">
+                <div class="icon-circle bg-primary">
+                  <i class="fas fa-file-alt text-white"></i>
+                </div>
+              </div>
+              <div>
+                <div class="small text-gray-500">December 12, 2019</div>
+                <span class="font-weight-bold">A new monthly report is ready to download!</span>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="mr-3">
+                <div class="icon-circle bg-success">
+                  <i class="fas fa-donate text-white"></i>
+                </div>
+              </div>
+              <div>
+                <div class="small text-gray-500">December 7, 2019</div>
+                $290.29 has been deposited into your account!
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="mr-3">
+                <div class="icon-circle bg-warning">
+                  <i class="fas fa-exclamation-triangle text-white"></i>
+                </div>
+              </div>
+              <div>
+                <div class="small text-gray-500">December 2, 2019</div>
+                Spending Alert: We've noticed unusually high spending for your account.
+              </div>
+            </a>
+            <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-envelope fa-fw"></i>
+        
+            <span class="badge badge-danger badge-counter">7</span>
+          </a>
+      
+          <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+            <h6 class="dropdown-header">
+              Message Center
+            </h6>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt=""/>
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div class="font-weight-bold">
+                <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
+                <div class="small text-gray-500">Emily Fowler · 58m</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt=""/>
+                <div class="status-indicator"></div>
+              </div>
+              <div>
+                <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+                <div class="small text-gray-500">Jae Chun · 1d</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt=""/>
+                <div class="status-indicator bg-warning"></div>
+              </div>
+              <div>
+                <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
+                <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+              </div>
+            </a>
+            <a class="dropdown-item d-flex align-items-center" href="#">
+              <div class="dropdown-list-image mr-3">
+                <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt=""/>
+                <div class="status-indicator bg-success"></div>
+              </div>
+              <div>
+                <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
+                <div class="small text-gray-500">Chicken the Dog · 2w</div>
+              </div>
+            </a>
+            <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+          </div>
+        </li>
+
+        <div class="topbar-divider d-none d-sm-block"></div>
+
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Valerie Luna</span>
+            <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60"/>
+          </a>
+  
+          <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+              Profile
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+              Settings
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+              Activity Log
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+              <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+              Logout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+ 
+    <div class="container-fluid">
+
+      <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+      </div>
+
+      <div class="row">
+
+        <div class="col-xl-3 col-md-6 mb-4">
+          <div class="card border-left-primary shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Earnings (Monthly)</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+          <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Earnings (Annual)</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+          <div class="card border-left-info shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks</div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col-auto">
+                      <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
+                    </div>
+                    <div class="col">
+                      <div class="progress progress-sm mr-2">
+                        <div class="progress-bar bg-info" role="progressbar" style={{width: 50}}></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mb-4">
+          <div class="card border-left-warning shadow h-100 py-2">
+            <div class="card-body">
+              <div class="row no-gutters align-items-center">
+                <div class="col mr-2">
+                  <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Pending Requests</div>
+                  <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                </div>
+                <div class="col-auto">
+                  <i class="fas fa-comments fa-2x text-gray-300"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-xl-8 col-lg-7">
+          <div class="card shadow mb-4">
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+              <div class="dropdown no-arrow">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                  <div class="dropdown-header">Dropdown Header:</div>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="card-body">
+              <div class="chart-area">
+                <canvas id="myAreaChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-5">
+          <div class="card shadow mb-4">
+      
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+              <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+              <div class="dropdown no-arrow">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                  <div class="dropdown-header">Dropdown Header:</div>
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="card-body">
+              <div class="chart-pie pt-4 pb-2">
+                <canvas id="myPieChart"></canvas>
+              </div>
+              <div class="mt-4 text-center small">
+                <span class="mr-2">
+                  <i class="fas fa-circle text-primary"></i> Direct
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle text-success"></i> Social
+                </span>
+                <span class="mr-2">
+                  <i class="fas fa-circle text-info"></i> Referral
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 mb-4">
+
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Projects</h6>
+            </div>
+            <div class="card-body">
+              <h4 class="small font-weight-bold">Server Migration <span class="float-right">20%</span></h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-danger" role="progressbar" style={{width: 20 }}></div>
+              </div>
+              <h4 class="small font-weight-bold">Sales Tracking <span class="float-right">40%</span></h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-warning" role="progressbar" style={{width: 40 }}></div>
+              </div>
+              <h4 class="small font-weight-bold">Customer Database <span class="float-right">60%</span></h4>
+              <div class="progress mb-4">
+                <div class="progress-bar" role="progressbar" style={{width: 60 }}></div>
+              </div>  
+              <h4 class="small font-weight-bold">Payout Details <span class="float-right">80%</span></h4>
+              <div class="progress mb-4">
+                <div class="progress-bar bg-info" role="progressbar" style={{width: 80 }}></div>
+              </div>
+              <h4 class="small font-weight-bold">Account Setup <span class="float-right">Complete!</span></h4>
+              <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar"style={{width: 100 }}></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-primary text-white shadow">
+                <div class="card-body">
+                  Primary
+                  <div class="text-white-50 small">#4e73df</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-success text-white shadow">
+                <div class="card-body">
+                  Success
+                  <div class="text-white-50 small">#1cc88a</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-info text-white shadow">
+                <div class="card-body">
+                  Info
+                  <div class="text-white-50 small">#36b9cc</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-warning text-white shadow">
+                <div class="card-body">
+                  Warning
+                  <div class="text-white-50 small">#f6c23e</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-danger text-white shadow">
+                <div class="card-body">
+                  Danger
+                  <div class="text-white-50 small">#e74a3b</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+              <div class="card bg-secondary text-white shadow">
+                <div class="card-body">
+                  Secondary
+                  <div class="text-white-50 small">#858796</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Illustrations</h6>
+            </div>
+            <div class="card-body">
+              <div class="text-center">
+                <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style={{width: 25}} src="img/undraw_posting_photo.svg" alt=""/>
+            
+              <p>Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!</p>
+              <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+            </div>
+          </div>
+
+    
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Development Approach</h6>
+            </div>
+            <div class="card-body">
+              <p>SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.</p>
+              <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+      </div>
+      </div>
+      </div>
+    );
+  }
+}
+
+export default dashboard;
+
+
+
+/*************************************************** orderscreen ***********************************
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import {createOrder , detailsOrder, payOrder} from '../../actions/orderActions'
+
+function OrderScreen(props) {
+
+  const orderPay = useSelector(state => state.orderPay);
+  const dispatch = useDispatch();
+  const qty = props.location.search ? Number(props.location.search.split("=")[1]) : 1;
+  useEffect(() => {
+  
+  
+  }, []);
+
+  
+  const orderDetails = useSelector(state => state.orderDetails);
+  const { loading, order, error } = orderDetails;
+
+  return (
+    <div>
+      <div className="placeorder">
+        <div className="placeorder-info">
+          <div>
+            <h3>
+              Shipping
+          </h3>
+            <div>
+              {order.shipping.address}, {order.shipping.city},
+          {order.shipping.postalCode}, {order.shipping.country},
+          </div>
+            <div>
+              {order.isDelivered ? "Delivered at " + order.deliveredAt : "Not Delivered."}
+            </div>
+          </div>
+          <div>
+            <h3>Payment</h3>
+            <div>
+              Payment Method: a la livraison 
+            </div>
+            <div>
+              {order.isPaid ? "Paid at " + order.paidAt : "Not Paid."}
+            </div>
+          </div>
+          <div>
+            <ul className="cart-list-container">
+              <li>
+                <h3>
+                  Shopping Cart
+          </h3>
+                <div>
+                  Price
+          </div>
+              </li>
+              {
+                order.orderItems.length === 0 ?
+                  <div>
+                    Cart is empty
+          </div>
+                  :
+                  order.orderItems.map(item =>
+                    <li key={item._id}>
+                      <div className="cart-image">
+                      <img src={`http://localhost:5000/${item.file}`} alt="product" />
+                </div>
+                      <div className="cart-name">
+                        <div>
+                        <Link to={"/piece/" + item.piece}>
+                             {item.nom}
+                        </Link>
+
+                        </div>
+                        <div>
+                          Qty: {qty}
+                        </div>
+                      </div>
+                      <div className="cart-price">
+                        ${item.prix}
+                      </div>
+                    </li>
+                  )
+              }
+            </ul>
+          </div>
+
+
+        </div>
+        <div className="placeorder-action">
+          <ul>
+            <li>
+              <h3>Order Summary</h3>
+            </li>
+            <li>
+              <div>Items</div>
+              <div>${order.itemsPrice}</div>
+            </li>
+            <li>
+              <div>Shipping</div>
+              <div>${order.shippingPrice}</div>
+            </li>
+            <li>
+              <div>Tax</div>
+              <div>${order.taxPrice}</div>
+            </li>
+            <li>
+              <div>Order Total</div>
+              <div>${order.totalPrice}</div>
+            </li>
+          </ul>
+
+
+
+        </div>
+
+      </div>
+    </div>
+);
+}
+
+export default OrderScreen;
+
+
+/**************************************nav final ************************/
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import './nav.css';
+
+import * as actions from '../actions';
+
+
+class nav extends Component {
+  constructor(props) {
+    super(props);
+    this.signOut = this.signOut.bind(this);
+  }
+
+  signOut() {
+    console.log('signOut got called ! ');
+    this.props.signOut();
+  }
+
+  render() {
+    const {isAuth} = this.props;
+    if(!isAuth)  {
+      return (
+        <div>
+           <div class="wrap">
+           <div class="container">
+           <div class="row justify-content-between">
+           <div class="col-md-3 d-flex align-items-center">
+           <a class="navbar-brand" href="/home">Autorepair<span>.</span></a>
+           </div>
+           <div class="col-md-8">
+           <div class="row">
+           <div class="col">
+           <div class="top-wrap d-flex pr-6">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Mail</span><span>kia.monastir@gmail.com</span></div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="top-wrap d-flex">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Call us</span><span> +216 73 531 139</span></div>
+           </div>
+           </div>
+           <div class="col-md d-flex justify-content-end align-items-center">
+           <div class="social-media col-md-9">
+           <p class="mb-0 d-flex">
+           <a href="inscrit" class="d-flex align-items-center justify-content-center pl-3"><span class=" pr-3 ti-user" aria-hidden="true"><i class="sr-only"></i></span></a>
+           Mon Compte
+           </p>
+           </div>
+           <div class="social-media col-md-5">
+           <p class="mb-0 d-flex">
+           <a href="panier" class="d-flex align-items-center justify-content-center pl-3 "><span class=" pr-3 ti-shopping-cart "><i class="sr-only "></i></span></a>
+           Mon panier
+           </p>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light fixed-top" id="ftco-navbar">
+     <div class="container">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+     <i className="fa fa-bars"></i>Menu
+     
+     </button>
+     
+         <form action="#" class="searchform order-lg-last">
+             <div class="form-group d-flex">
+             <input type="text" class="form-control pl-3" placeholder="Search"/> 
+             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+             </div>
+         </form>
+         
+       
+     
+     <div class="collapse navbar-collapse" id="ftco-nav">
+     <ul class="navbar-nav mr-auto">
+     <li class="nav-item active"><a href="home" class="nav-link">Pièces AUTO</a></li>
+     
+    
+     <li class="nav-item"><a href="listp" class="nav-link">Nos articles</a></li>
+     <li class="nav-item"><a href="listp" class="nav-link">Nos articles</a></li>
+     <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+     <li class="nav-item"><a href="bloc" class="nav-link">Blog</a></li>
+     <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+     </ul>
+     </div>
+     </div>
+     </nav>
+     </div>
+     
+     );
+    }
+    else {
+      return (
+        <div>
+           <div class="wrap">
+           <div class="container">
+           <div class="row justify-content-between">
+           <div class="col-md-3 d-flex align-items-center">
+           <a class="navbar-brand" href="/home">Autorepair<span>.</span></a>
+           </div>
+           <div class="col-md-8">
+           <div class="row">
+           <div class="col">
+           <div class="top-wrap d-flex pr-6">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Mail</span><span>kia.monastir@gmail.com</span></div>
+           </div>
+           </div>
+           <div class="col">
+           <div class="top-wrap d-flex">
+           <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-location-arrow"></span></div>
+           <div class="text"><span>Call us</span><span> +216 73 531 139</span></div>
+           </div>
+           </div>
+           <div class="col-md d-flex justify-content-end align-items-center">
+           <div class="social-media col-md-9">
+           <p class="mb-0 d-flex">
+           <a href="/logout" class="d-flex align-items-center justify-content-center pl-3" onClick={this.signOut}> <span class=" pr-3 ti-user" aria-hidden="true"><i class="sr-only"></i></span></a>
+           Logout
+           </p>
+           </div>
+           <div class="social-media col-md-5">
+           <p class="mb-0 d-flex">
+           <a href="panier" class="d-flex align-items-center justify-content-center pl-3 " ><span class=" pr-3 ti-shopping-cart "><i class="sr-only "></i></span></a>
+           Shopping Cart
+           </p>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+           </div>
+     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+     <div class="container">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+     <i className="fa fa-bars"></i>Menu
+     
+     </button>
+     
+         <form action="#" class="searchform order-lg-last">
+             <div class="form-group d-flex">
+             <input type="text" class="form-control pl-3" placeholder="Search"/> 
+             <button type="submit" placeholder="" class="form-control search"><span class="fa fa-search"></span></button>
+             </div>
+         </form>
+         
+       
+     
+     <div class="collapse navbar-collapse" id="ftco-nav">
+     <ul class="navbar-nav mr-auto">
+     <li class="nav-item active"><a href="/home" class="nav-link">Home</a></li>
+     
+     
+ <li class="nav-item">
+<div class="collapse navbar-collapse js-navbar-collapse">
+      <ul class="nav navbar-nav ">
+        <li class="dropdown mega-dropdown nav-item">
+          <a href="/" class="dropdown-toggle nav-link" data-toggle="dropdown"  aria-haspopup="true"aria-expanded="false" >Collection </a>
+
+        <ul class="dropdown-menu mega-dropdown-menu row  ">
+          <div className="row">
+            <li class="col-sm-3 pl-5">
+              <ul>
+  <li class="dropdown-header " ><i class="fa fa-snowflake-o pr-2" aria-hidden="true">{' '}</i>Meilleures ventes été</li><br/>
+                <li><a className="catego" href="/">Consommables</a></li>
+                <li><a className="catego"href="/">Equipement intèrieur</a></li>
+                <li><a className="catego" href="/">Suspension et direction (chassis)</a></li>
+                <li><a className="catego" href="/">Tolerie et vitrage</a></li>
+                <li><a  className="catego" href="/">Electricité</a></li>
+              </ul>
+            </li>
+
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">Dresses</li>
+                <li><a href="#">Unique Features</a></li>
+                <li><a href="#">Image Responsive</a></li>
+                <li><a href="#">Auto Carousel</a></li>
+                <li><a href="#">Newsletter Form</a></li>
+                <li><a href="#">Four columns</a></li>
+
+                   <hr style={{width : 210 }}/>
+
+                <li class="dropdown-header">Tops</li>
+                <li><a href="#">Good Typography</a></li>
+              </ul>
+            </li>
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">Jackets</li>
+                <li><a href="#">Easy to customize</a></li>
+                <li><a href="#">Glyphicons</a></li>
+                <li><a href="#">Pull Right Elements</a></li>
+                
+                  
+                <li class="dropdown-header">Pants</li>
+                <li><a href="/">Coloured Headers</a></li>
+                <li><a href="/">Primary Buttons & Default</a></li>
+                <li><a href="/">Calls to action</a></li>
+              </ul>
+            </li>
+            <li class="col-sm-3">
+              <ul>
+                <li class="dropdown-header">Accessories</li>
+                <li><a href="#">Default Navbar</a></li>
+                <li><a href="#">Lovely Fonts</a></li>
+                <li><a href="#">Responsive Dropdown </a></li>
+                
+                
+          
+              </ul>
+            </li>
+            </div>
+          </ul>
+          
+        </li>
+      </ul>
+    </div>
+    </li>
+     {/********************************************* */}
+     <li class="nav-item"><a href="/listp" class="nav-link">Nos articles</a></li>
+     <li class="nav-item"><a href="about" class="nav-link">About</a></li>
+     <li class="nav-item"><a href="bloc" class="nav-link">Blog</a></li>
+     <li class="nav-item"><a href="contact" class="nav-link">Contact</a></li>
+     </ul>
+     </div>
+     </div>
+     </nav>
+     </div>
+     
+     );
+    }
+    
+}
+}
+function mapStateToProps(state) {
+  return {
+    isAuth: state.auth.isAuthenticated
+  };
+}
+
+export default connect(mapStateToProps, actions)(nav);

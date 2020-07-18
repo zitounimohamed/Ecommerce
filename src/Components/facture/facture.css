@@ -1,0 +1,22 @@
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+    margin-top: -40px;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 8px solid;
+}
+#facthr{
+    border-top: 5px solid;
+}
+.panel-title{
+    border: double;
+}
